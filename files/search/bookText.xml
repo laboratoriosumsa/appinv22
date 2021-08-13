@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Search><pages Count="36"><page Index="1"/><page Index="2"/><page Index="3"/><page Index="4"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                                                                      Prueba una condición determinada. Si la condición es verdadera,
+                                                                    realiza las acciones en una secuencia de bloques determinada; de lo
+
+                                                                                      contrario, los bloques se ignoran.
+
+
+
+
+
+
+
+
+                    Prueba una condición determinada. Si la condición es verdadera,
+                    realiza las acciones en la secuencia de bloques -entonces; de lo
+
+                    contrario, realiza las acciones en la secuencia de bloques.
+
+
+
+
+
+
+
+
+
+                                                                   Prueba una condición determinada. Si el resultado es verdadero, realiza las
+                                                                    acciones en la secuencia de bloques -entonces; de lo contrario, prueba la
+                                                                    declaración en la sección -else if. Si el resultado es verdadero, realiza las
+
+                                                                   acciones en la secuencia de bloques -entonces; de lo contrario, realiza las
+                                                                                   acciones en la secuencia de bloques -else.]]></page><page Index="5"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                                                                        Ejecuta los bloques en la sección do para cada valor numérico en el
+                                                                        rango comenzando desde y terminando en hasta ,
+                                                                        incrementándose numberpor el valor de por cada vez. Utilice el
+                                                                        nombre de variable dado,, numberpara hacer referencia al valor
+
+                                                                        actual. Puede cambiar el nombre numberpor otro si lo desea.
+
+
+
+
+
+                         Ejecuta los bloques en la sección de tareas para cada elemento de
+                             la lista. Utilice el nombre de variable dado,, itempara hacer
+                         referencia al elemento de la lista actual. Puede cambiar el nombre
+                                              itempor otro si lo desea.
+
+
+
+
+
+
+
+
+
+
+
+                                                                         Ejecuta los bloques en la sección do para cada entrada de valor-clave
+                                                                         en el diccionario. Utilice las variables dadas keyy value, para hacer
+                                                                         referencia a la clave y el valor de la entrada actual del
+                                                                         diccionario. Puede cambiar los nombres keyy valuea otra cosa si lo
+                                                                         desea.]]></page><page Index="6"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                                    Prueba la condición de prueba. Si es verdadero, realiza la acción dada en -
+                                                                    do, luego vuelve a probar. Cuando la prueba es falsa, el bloque finaliza y la
+                                                                    acción dada en -do ya no se realiza.
+
+
+
+
+
+                  Prueba una condición determinada. Si la declaración es verdadera, realiza las acciones en la
+                  secuencia de bloques de retorno y devuelve el valor de retorno; de lo contrario, realiza las
+
+                  acciones en la secuencia de bloques else-return y devuelve el valor else-return.
+
+
+
+
+
+
+                                                        A veces, en un procedimiento u otro bloque de código, es posible que deba hacer algo y
+                                                         devolver algo, pero por varias razones puede optar por utilizar este bloque en lugar de
+                                                                                    crear un nuevo procedimiento.
+
+
+
+
+
+
+                Proporciona un "enchufe falso" para colocar un bloque que tiene un enchufe a la
+
+                izquierda en un lugar donde no hay enchufe, como uno de la secuencia de
+                 bloques en la parte do de un procedimiento o un bloque if. El bloque en el que
+                encajas se ejecutará, pero se ignorará el resultado devuelto. Esto puede resultar
+                  útil si define un procedimiento que devuelve un resultado, pero desea llamarlo en
+                un contexto que no acepta un resultado.]]></page><page Index="7"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                                  Abre la pantalla con el nombre proporcionado.
+
+                                                                  El nombre de pantalla debe ser una de las pantallas creadas con Designer. El
+
+                                                                  nombre de pantalla debe ingresarse en un componente de texto y escribirse
+                                                                  exactamente como se indica en el Diseñador. (El caso es importante, si el
+                                                                  nombre de pantalla diseñado es myNewScreen, lo que usa en la pieza del
+                                                                  rompecabezas no puede ser mynewscreen o MyNewScreen, por ejemplo).
+                                                                  Si abre otra pantalla, debe cerrarla cuando regrese a la pantalla principal para
+                                                                  liberar memoria del sistema. Si no cierra una pantalla al salir de ella,
+
+                                                                  eventualmente se producirán problemas de memoria.
+
+                                                                  Los desarrolladores de aplicaciones nunca deben cerrar Screen1 ni usar este
+                                                                  bloque para volver a Screen1. En su lugar, usa el close screenbloque.
+
+
+
+
+                                       Abre otra pantalla y le pasa un valor.
+
+
+
+
+
+                                                             Devuelve el valor inicial dado a la pantalla actual.
+
+                                                             Este valor se obtiene mediante el uso de open another screen with start valueo
+                                                             close screen with value.
+
+
+
+
+
+                                          Cierra la pantalla actual.]]></page><page Index="8"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                                                                                                Cierra la pantalla actual.
+
+
+
+
+                        Cierra la aplicación.
+
+
+
+
+                                                              Devuelve el texto sin formato que se pasó a esta pantalla cuando otra aplicación
+                                                              la inició. Si no se pasó ningún valor, devuelve el texto vacío. Para aplicaciones de
+                                                                     pantalla múltiple, use en get start valuelugar de get plain start text.
+
+
+
+
+
+                         Cierra la pantalla actual y pasa texto a la aplicación que abrió esta. Este
+                         comando es para devolver texto a actividades que no son de App
+                         Inventor, no a las pantallas de App Inventor. Para las pantallas de App
+
+                         Inventor, como en las aplicaciones de múltiples pantallas, use close
+                         screen with value, no close screen with plain text.
+
+
+
+
+                                                              Al realizar un bucle con el rango for , for each o while blocks, a veces es útil poder
+
+                                                                salir del bucle antes. El breakte permite escapar del bucle. Cuando se ejecuta,
+                                                               esto saldrá del ciclo y continuará la aplicación con las declaraciones que ocurren
+                                                                                      después del ciclo en los bloques.]]></page><page Index="9"/><page Index="10"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                                 Representa el valor constante verdadero. Úselo para establecer valores de
+                                                                  propiedad booleana de componentes, o como el valor de una variable que
+                                                                                         representa una condición.
+
+
+
+
+                  Representa el valor constante falso. Úselo para establecer valores de propiedad booleana
+                  de componentes, o como el valor de una variable que representa una condición.
+
+
+
+
+                                                           Realiza una negación lógica, devolviendo falso si la entrada es verdadera y
+                                                                                verdadera si la entrada es falsa.
+
+
+
+
+                 Comprueba si sus argumentos son iguales.
+
+                 Dos números son iguales si son numéricamente iguales, por ejemplo, 1 es igual a 1.0.
+
+                 Dos bloques de texto son iguales si tienen los mismos caracteres en el mismo orden, con el
+                 mismo caso. Por ejemplo, el plátano no es igual al plátano.
+
+                 Los números y el texto son iguales si el número es numéricamente igual a un número que se
+                 imprimiría con ese texto. Por ejemplo, 12.0 es igual al resultado de unir el primer carácter de
+                  1A al último carácter de Teafor2.
+
+                  Dos listas son iguales si tienen el mismo número de elementos y los elementos
+                 correspondientes son iguales.
+
+                 Actúa exactamente igual que el bloque = que se encuentra en Matemáticas]]></page><page Index="11"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+
+                                                       Comprueba si todas las condiciones lógicas de un conjunto son verdaderas. El resultado
+
+                                                       es verdadero si y solo si todas las condiciones probadas son verdaderas. El número de
+                                                       pruebas se puede ampliar utilizando el mutador . Las condiciones se prueban de
+                                                       izquierda a derecha y la prueba se detiene tan pronto como una de las condiciones es
+                                                       falsa. Si no hay condiciones para probar, el resultado es verdadero. Puede considerar
+                                                       que esto es una broma de lógico..
+
+
+
+
+
+
+
+
+
+
+
+                                                     Comprueba si alguna de un conjunto de condiciones lógicas es verdadera. El resultado
+                                                     es verdadero si una o más de las condiciones probadas son verdaderas. El número de
+                                                     pruebas se puede ampliar utilizando el mutador . Las condiciones se prueban de
+
+                                                     izquierda a derecha y la prueba se detiene tan pronto como se cumple una de las
+                                                     condiciones. Si no hay condiciones para probar, el resultado es falso.]]></page><page Index="12"/><page Index="13"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                      Puede usarse como cualquier número positivo o negativo. Hacer clic en el "0" en el bloque le permitirá
+                                      cambiar el número.
+
+                                      El bloque admite números normales en base 10 (por ejemplo: 2, 12 y 2.12), así como prefijos tipo C para
+                                      otras bases numéricas. Soporta:
+
+                                         •   Números de base 2 (binarios), por ejemplo, 0b10 (decimal 2)
+                                         •   Números de base 8 (octales), por ejemplo, 0o14 (decimal 12)
+
+                                         •   Números de base 16 (hexadecimal), por ejemplo, 0xd4 (decimal 212)
+
+
+
+
+
+                   Representa un número de base 10. Hacer clic en el "0" le permitirá cambiar el número.
+                   Hacer clic en el menú desplegable le permitirá ingresar un número en una base numérica
+
+                   diferente (también conocida como radix). Luego, el número se “ traducirá”  a decimal
+                   (también conocido como base 10).
+
+                   Por ejemplo, estos tres bloques son equivalentes:
+
+                   El menú desplegable admite: formatos de entrada decimal (base-10), binario (base-2), octal
+                   (base-8) y hexadecimal (base-16).
+
+                   El modo decimal le permite ingresar cualquier número positivo o negativo (por ejemplo, 2, -
+                   12, 2.12). Los otros modos solo le permiten ingresar un número entero (también conocido
+
+                   como cualquier número positivo o cero).]]></page><page Index="14"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                               (=) Comprueba si dos números son iguales y devuelve verdadero o falso.
+
+                                               (≠) Comprueba si dos números no son iguales y devuelve verdadero o falso.
+
+                                               (<) Comprueba si el primer número es mayor que el segundo y devuelve verdadero o falso.
+
+                                               (≤) Comprueba si el primer número es mayor o igual que el segundo y devuelve verdadero o falso.
+
+                                               (>) Comprueba si el primer número es menor que el segundo y devuelve verdadero o falso
+
+                                               (≥) Comprueba si el primer número es menor o igual que el segundo y devuelve verdadero o falso.
+
+
+
+
+
+                  Devuelve el resultado de:
+
+                      •   Sumar
+                      •   Restar
+                      •   Multiplicar
+
+                      •   Dividir
+
+                  Cualquier cantidad de bloques que tengan un valor numérico juntos. Los bloques con un valor
+                  numérico incluyen el bloque numérico básico, la longitud de la lista o el texto, las variables
+                  con un valor numérico, etc
+
+
+
+
+
+
+                                                       Es un bloque mutador y se puede expandir para permitir más números en el producto.]]></page><page Index="15"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                  Devuelve el resultado del primer número elevado a la potencia del segundo.
+
+
+
+
+
+                (Bit a bit y)Toma dos números y compara cada par de bits. Cada bit del resultado es
+                 1 solo si los bits correspondientes de ambos operandos son 1.
+
+                 (Bit a bit o Inclusivo) Toma dos números y compara cada par de bits. Cada bit del
+                resultado es 1 si cualquiera de los bits correspondientes en cada operando es 1.
+
+                (Bit a bit O Exclusivo) Toma dos números y compara cada par de bits. Cada bit del
+                 resultado es 1 solo si un bit correspondiente en los operandos es 1 y el otro es 0.
+
+
+
+
+                                                                       Devuelve un valor entero aleatorio entre los valores dados, inclusive. No
+                                                                       importa el orden de los argumentos.
+
+
+
+                       Devuelve un valor aleatorio entre 0 y 1
+
+
+
+
+                                                        Utilice este bloque para generar secuencias repetibles de números aleatorios. Puede
+
+                                                        generar la misma secuencia de números aleatorios llamando primero a la semilla de
+                                                        conjunto aleatorio con el mismo valor. Esto es útil para probar programas que involucran
+                                                        valores aleatorios.]]></page><page Index="16"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                                                        Devuelve el valor más pequeño o máximo de un conjunto de números. Si hay enchufes
+                                                        desconectados en el bloque, min también considerará 0 en su conjunto de números.
+
+
+
+
+
+
+
+                                                                                   Devuelve :
+
+                                                                                      •   La raíz cuadrada
+                                                                                      •   Valor absoluto
+                                                                                      •   Negativo
+
+                                                                                      •   Logaritmo natural (en base e)
+                                                                                      •   Numero redondeado
+                                                                                      •   Superior
+
+                                                                                      •   Inferior
+
+                                                                                    del número dado.
+
+
+
+
+
+                El módulo (a, b) es igual que el resto (a, b) cuando a y b son positivos.
+                 siempre tiene el mismo signo que a.
+
+                 El resto (a, b) devuelve el resultado de dividir a por b y tomar el resto. El
+                resto es la parte fraccionaria del resultado multiplicada por b.
+
+                Devuelve el resultado de dividir el primer número por el segundo y descartar
+                cualquier fracción del resultado.]]></page><page Index="17"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                                                                                 Devuelve el :
+                                                                                    •   Seno
+                                                                                    •   Coseno
+                                                                                    •   Tangente
+
+                                                                                  del número dado en grados.
+
+
+
+                                     Devuelve la arcotangente de y / x, dados y y x.
+
+
+
+
+
+
+                                                                  Devuelve el valor en grados del número dado en radianes. El resultado será un
+                                                                  ángulo en el rango [0, 360)
+
+                                                                  Devuelve el valor en radianes del número dado en grados. El resultado será un
+                                                                  ángulo en el rango [-π, + π)
+
+
+
+
+
+                                                                 Formatea un número como decimal con un número determinado de lugares
+                                                                 después del punto decimal. El número de lugares debe ser un número entero
+                                                                 no negativo. El resultado se obtiene redondeando el número (si hay
+                                                                 demasiados lugares) o agregando ceros a la derecha (si hay muy pocos).]]></page><page Index="18"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                Devuelve verdadero si el objeto dado es un número, base 10, hexadecimal, binario
+                  y falso en caso contrario.
+
+
+
+
+
+
+
+
+
+
+                                                                   Toma una cadena de texto que representa un número entero positivo en una
+                                                                   base y devuelve una cadena que representa el mismo número en otra base.
+
+                                                                   Por ejemplo, si la cadena de entrada es 10, la conversión de base 10 a binaria
+                                                                   producirá la cadena 1010; mientras que si la cadena de entrada es el mismo
+                                                                   10, entonces la conversión de binario a base 10 producirá la cadena 2. Si la
+                                                                   cadena de entrada es el mismo 10, entonces la conversión de base 10 a
+                                                                   hexadecimal producirá la cadena A.
+
+
+
+
+
+
+
+                  Toma dos números y compara cada par de bits. Cada bit del resultado es 1 solo si
+
+                  los bits correspondientes de ambos operandos son 1.]]></page><page Index="19"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             BLOQUES DE CONTROL]]></page><page Index="20"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                               Contiene una cadena de texto, Esta cadena puede contener cualquier carácter (letras, números
+                                               u otros caracteres especiales). En App Inventor, se considerará un objeto de texto.
+
+
+
+
+
+                 Agrega todas las entradas para hacer una sola cadena. Si no hay
+               entradas, devuelve una cadena vacía.
+
+
+
+
+
+
+                                                  Devuelve el número de caracteres incluidos los espacios en la cadena. Esta es la longitud de la
+                                                  cadena de texto dada.
+
+
+
+                  Devuelve si la cadena contiene caracteres (incluidos los espacios). Cuando la longitud
+                  de la cadena es 0, devuelve verdadero; de lo contrario, devuelve falso.
+
+
+
+
+
+                                                           Devuelve si la primera cadena es <,>, = o ≠ la segunda cadena según el menú
+                                                           desplegable seleccionado.
+
+                                                           Una cadena se considera mayor que otra si es alfabéticamente mayor que la otra
+                                                           cadena. Esencialmente, vendría después en el diccionario. Todas las letras
+                                                           mayúsculas se consideran más pequeñas o aparecen antes de las minúsculas.]]></page><page Index="21"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                    Elimina los espacios delante o detrás de la cadena de entrada y devuelve el resultado.
+
+
+
+
+
+                Devuelve una copia de su argumento de cadena de texto convertido a mayúsculas o minúsculas.
+
+
+
+
+                                                       Devuelve la posición del carácter donde el primer carácter de la pieza aparece por primera
+                                                       vez en el texto, o 0 si no está presente
+
+
+
+
+               Devuelve verdadero si:
+
+                   •   La pieza aparece en el texto; de lo contrario, devuelve falso.
+                   •   Si alguna de las piezas de la lista de piezas aparece en el texto; de lo contrario, devuelve
+
+                       falso.
+                   •   Si todas las piezas de la lista de piezas aparecen en texto; de lo contrario, devuelve falso.
+
+
+
+
+                                                     •  Divide el texto dado en dos partes utilizando la ubicación de la primera aparición de en como
+                                                        punto de división y devuelve una lista de dos elementos que consta de la parte antes del punto
+                                                        de división y la parte después del punto de división.
+                                                     •  Divide el texto dado en una lista de dos elementos, utilizando la primera ubicación de cualquier
+                                                        elemento de la lista en como punto de división.
+
+                                                     •  Divide el texto dado en una lista, utilizando cualquiera de los elementos en como punto de
+                                                        división, y devuelve una lista de los resultados.
+                                                     •  Divide el texto en partes utilizando a como puntos de división y produce una lista de los
+                                                        resultados .]]></page><page Index="22"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                  Divide el texto dado en cualquier ocurrencia de un espacio, produciendo una lista de las piezas.
+
+
+
+              Extrae parte del texto comenzando en la posición inicial y continuando con los caracteres de
+              longitud.
+
+
+
+
+                                                    Devuelve una nueva cadena de texto obtenida al reemplazar todas las apariciones de la
+                                                    subcadena con el reemplazo
+
+
+             Produce texto, como un bloque de texto. La diferencia es que el texto no se puede descubrir fácilmente
+
+             examinando el contenido de la aplicación. Úselo cuando cree aplicaciones para distribuir que incluyan
+
+             información confidencial, por ejemplo, claves de API.
+
+                                                                   Devuelve verdadero si algo es un objeto de texto; de lo contrario, es falso.
+
+
+
+
+             Invierta el texto dado. Por ejemplo, "reverse" se convertiría en "esrever".
+
+
+
+                                                                    Dado un diccionario de asignaciones como entrada, reemplaza las entradas clave
+                                                                    en el texto con los valores correspondientes en el diccionario. Devuelve el texto
+
+                                                                    con las asignaciones aplicadas.
+                                                                    Si se especifica el orden de cadena más largo, en el caso de que una entrada de
+                                                                    clave sea una subcadena de otra entrada de clave
+
+                                                                    Si se especifica el orden del diccionario, en el caso de que una entrada clave sea
+                                                                    una subcadena de otra entrada clave.]]></page><page Index="23"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             BLOQUES DE CONTROL]]></page><page Index="24"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                                                             Crea una lista vacía sin elementos.
+
+
+
+
+
+                 Crea una lista a partir de los bloques dados. Si no proporciona ningún
+              argumento, esto crea una lista vacía, a la que puede agregar elementos
+
+              más adelante.
+
+
+
+                                                           Agrega los elementos dados al final de la lista. La diferencia entre esto y agregar a
+                                                           la lista es que agregar a la lista toma los elementos que se agregarán como una
+
+                                                           lista única, mientras que agregar elementos a la lista toma los elementos como
+                                                           argumentos individuales
+
+
+
+
+              Si algo es uno de los elementos de la lista, devuelve verdadero; de lo contrario, devuelve falso.
+
+
+                                                                                 Devuelve el número de elementos de la lista.
+
+
+
+                 Si la lista no tiene elementos, devuelve verdadero; de lo contrario, devuelve falso.
+
+
+
+                                                                                   Elige un elemento al azar de la lista.]]></page><page Index="25"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                                  Devuelve la posición de la cosa en la lista. Si no está en la lista, devuelve 0
+
+
+
+                 Selecciona el elemento en el índice dado en la lista dada. El primer elemento de la
+                 lista está en el índice 1.
+
+
+
+                                                                    Inserta un elemento en la lista en la posición dada.
+
+
+                Inserta el reemplazo en la lista dada en el índice de posición. Se elimina el
+                  elemento anterior en esa posición.
+
+
+
+
+                                                                    Elimina el elemento en la posición indicada.
+
+
+                   Agrega los elementos de la segunda lista al final de la primera lista.
+
+
+                                                       Hace una copia de una lista, incluida la copia de todas las sublistas.
+
+
+                   Si algo es una lista, devuelve verdadero; de lo contrario, devuelve falso.
+
+
+
+                                                          Invierte una copia de la lista con elementos en orden inverso.
+
+
+
+             Interpreta la lista como una fila de una tabla y devuelve un texto CSV (valores separados por
+             comas) que representa la fila. Cada elemento de la lista de filas se considera un campo y se
+
+             cita con comillas dobles en el texto CSV resultante.]]></page><page Index="26"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+                                                    Interpreta la lista como una tabla en formato de fila principal y devuelve un texto CSV (valores
+                                                    separados por comas) que representa la tabla. Cada elemento de la lista debe ser en sí
+                                                    mismo una lista que represente una fila de la tabla CSV. Cada elemento de la lista de filas se
+                                                    considera un campo y se cita con comillas dobles en el texto CSV resultante.
+
+
+
+                 Analiza un texto como una fila con formato CSV (valores separados por comas) para
+                producir una lista de campos.
+
+
+
+
+                                                                   Analiza un texto como una tabla con formato CSV (valores separados por comas)
+
+                                                                   para producir una lista de filas, cada una de las cuales es una lista de campos.
+
+
+
+
+              Se utiliza para buscar información en una estructura similar a un diccionario
+
+              representada como una lista. Esta operación toma tres entradas, una clave ,
+                 una lista de pares y un resultado notFound , que de forma predeterminada se
+              establece en "no encontrado".
+
+
+
+
+
+                                                                 Une todos los elementos en la lista especificada por el separador especificado,
+                                                                 produciendo texto como resultado.]]></page><page Index="27"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             BLOQUES DE CONTROL]]></page><page Index="28"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                                                           El bloque crea un diccionario sin pares clave-valor
+
+
+
+
+
+
+                    Se utiliza para crear un diccionario con un conjunto
+                    de mensajes de correo electrónico conocidos de
+                    antemano.
+
+
+
+
+
+                                                             El bloque es un bloque de propósito especial que se utiliza para construir diccionarios.
+
+
+
+                    El bloque comprueba si el diccionario contiene un valor correspondiente
+                    para la clave dada. Si es así, se devuelve el valor. De lo contrario, not
+                    found se devuelve el valor del parámetro.
+
+
+
+                                                     El bloque establece el valor correspondiente para lo dado el valor de la clave. Si no
+                                                     existe un mapeo para clave, se creará uno nuevo. De lo contrario, el valor existente
+                                                     se reemplaza por el nuevo valor.
+
+
+
+                    El bloque elimina la asignación clave-valor en el diccionario para la clave dada. Si no
+                    existe ninguna entrada para la clave en el diccionario, el diccionario no se modifica.]]></page><page Index="29"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                             El bloque es una versión más avanzada del anterior. En lugar de obtener el valor de
+
+                                                             una clave específica, toma una lista de claves y números válidos que representan una
+                                                             ruta a través de una estructura de datos
+
+
+               El bloque actualiza el valor en una key path estructura de datos específica.
+
+
+
+                                                                 Conseguir llaves devuelve una lista de claves en el diccionario
+
+                                                                 Obtener valores devuelve una lista que contiene los valores en el diccionario.
+
+
+
+
+               Las pruebas si existe la clave en el diccionario y devuelve verdad  lo hace, de lo
+
+               contrario devuelve falso.
+
+
+                                                          El bloque de tamaño de diccionario devuelve el número de pares clave-valor presentes
+                                                          en el diccionario.
+
+
+
+               El bloque convierte una lista asociativa del formulario en un diccionario que asigna las
+
+               claves a sus valores.
+
+
+                                                               Convierte un diccionario en una lista asociativa. Este bloque invierte la conversión
+                                                               realizada por el list of pairs.]]></page><page Index="30"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+                                                            Hace una copia profunda del diccionario dado. Esto significa que todos los valores se
+
+                                                            copian de forma recursiva y que cambiar un valor en la copia no lo cambiará en el
+                                                            original.
+
+
+                  El bloque copia los pares clave-valor de un diccionario a otro, sobrescribiendo
+                 cualquier clave en el diccionario de destino.
+
+
+
+                                                          Crea una lista de valores en lugar de devolver un solo valor. Funciona comenzando en
+
+                                                          el diccionario dado y caminando por el árbol de objetos siguiendo la ruta dada.]]></page><page Index="31"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             BLOQUES DE CONTROL]]></page><page Index="32"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                                                                            Este es un bloque de color básico. Tiene una forma cuadrada pequeña
+                                                                            y tiene un color en el medio que representa el color almacenado
+                                                                            internamente en este bloque.
+                                                                            Si hace clic en el color del medio, aparece una ventana emergente en
+                                                                            la pantalla con una tabla de 70 colores entre los que puede elegir. Al
+                                                                            hacer clic en un nuevo color cambiará el color actual de su bloque de
+                                                                            color básico.
+
+
+
+
+
+              Se toma una lista de 3 o 4 números. Estos números en esta lista
+
+              representan valores en un código RGB. Los códigos RGB se utilizan
+
+              para crear colores en Internet.Este primer número de esta lista
+              representa el valor R del código. El segundo representa la G. El tercero
+
+              representa la B.
+
+
+
+
+                                                         Separar color hace lo contrario de crear color. Toma un color: un bloque de color,
+                                                         una variable que contiene un color o una propiedad de uno de los componentes que
+                                                         representan un color y devuelve una lista de los valores RGB en el código RGB de
+
+                                                         ese color.]]></page><page Index="33"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             BLOQUES DE CONTROL]]></page><page Index="34"><![CDATA[INGENIERIA DE MÉTODOS
+                                                                CURSO VIRTUAL – MÓDULO 2
+
+                                                                 COMPONENTES DE BLOQUES
+
+
+
+                                                           Este bloque se utiliza para crear variables globales. Toma cualquier tipo de valor como
+                                                           argumento. Al hacer clic en el nombre, se cambiará el nombre de esta variable global.
+                                                           Las variables globales se utilizan en todos los procedimientos o eventos, por lo que
+                                                           este bloque será independiente.
+
+
+
+                Este bloque proporciona una forma de obtener las variables que haya creado.
+
+
+
+                                                      Este bloque sigue las mismas reglas que tomar. Solo las variables dentro del alcance
+                                                      estarán disponibles en el menú desplegable. Una vez que se selecciona una variable v
+
+                                                      , puede adjuntar un bloque para dar a un nuevo valor.
+
+
+
+              Este bloque es un mutador que le permite crear nuevas variables que solo se
+
+              utilizan en el procedimiento que ejecuta en la parte hacer del bloque. De esta
+
+              forma, todas las variables de este procedimiento comenzarán con el mismo valor
+              cada vez que se ejecute el procedimiento.
+
+
+
+                                                               Este bloque es un mutador que le permite crear nuevas variables que solo se utilizan
+                                                               en el procedimiento que ejecuta en la parte retorno del bloque. De esta forma, todas
+
+                                                               las variables de este procedimiento comenzarán con el mismo valor cada vez que se
+                                                               ejecute el procedimiento.]]></page><page Index="35"/><page Index="36"/></pages></Search>
